@@ -8,7 +8,6 @@ app.use(bodyParser.json()); // to support JSON-encoded bodies
 app.use(bodyParser.urlencoded({
   extended: true
 }));
- 
 // Home page
 app.get('/',function(req,res){
     res.sendfile('index.html');
